@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Ghabriel Website</title>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c47ef9b102.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Source+Code+Pro:wght@500&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/devghabriel.JPG" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburguer"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Projetos</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Eu</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Contatos</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!--Introduction-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello World! <strong>Eu sou Ghabriel. </strong>
+        </h1>
+        <p class="section__title section__subtitle--intro">Web Developer JR, estudante de ADS.</p>
+        <img src="/imgs/perfil.jpeg" class="intro__img" alt="my profile photo">
+
+    </section><!--intro-home-->
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3></h3>
+                <p></p>
+            </div><!-- service -->
+
+            <div class="service">
+                <h3>HTML+CSS+JS</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores numquam et reiciendis quo dolore soluta, maiores quaerat eos praesentium iure quidem eius placeat ipsum sapiente odio, eaque incidunt repellendus?
+                </p>
+            </div><!-- service -->
+
+            <div class="service">
+                <h3>NodeJS, ReactJS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div><!-- service -->
+
+            <div class="service">
+                <h3>JAVA, SQL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+
+                
+            </div><!-- service -->
+
+        </div><!--services-->
+        <a href="#work" class="btn"> See my work</a>
+    </section><!--myservices-->
+
+    <!--About-me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Sobre mim</h2>
+        <p class="section__subtitle section__subtitle--about"> In love with the process of learning and sharing </p>
+
+        <div class="about-me__body">
+            
+            <p>Cursando Análise e Desenvolvimento de Sistemas, sou paranaense, natural de Londrina. Estou disposto a embarcar em um nova etapa da minha carreira profissional, procuro a primeira oportunidade de emprego na área de desenvolvimento e programação, pois me considero um eterno aprendiz, que confia no aprendizado contínuo dia após dia.
+                Se eu pudesse me resumir em 3 adjetivos, seriam: persistente, lógico e justo. </p>
+
+            
+
+            
+
+        </div><!--about-me-body-->
+
+        <img src="/imgs/aboutme.jpg" alt="" class="about-me__img">
+    </section><!--about-me-->
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Meus serviços</h2>
+        <p class="section__subtitle section__subtitle--work">My intention is to be a Full-Stack Developer.</p>
+
+        <div class="portfolio">
+            <!--Portfolio Item01-->
+            <a href="#" class="portfolio__item">
+                <img src="/imgs/portfolio1.jpg" alt="coding" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item02-->
+            <a href="#" class="portfolio__item" class="portfolio__img">
+                <img src="/imgs/reading1.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item03-->
+            <a href="#" class="portfolio__item" class="portfolio__img">
+                <img src="/imgs/coffee.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item04-->
+            <a href="#" class="portfolio__item" class="portfolio__img" class="portfolio__img">
+                <img src="/imgs/nature.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+        </div>
+
+    </section><!--my-work-->
+
+    <!--Footer-->
+    <footer>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:ghabrielschiavo@hotmail.com" class="footer-link">Entre em contato. :)</a>
+        
+        <a><br>e me acompanhe nas redes socias abaixo:</br></a>
+
+        <ul class="social-list">
+            
+                <a class="social-list__link" href="https://www.linkedin.com/in/ghabriel-marchesi-schiavo-2b080320b/" target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Ghabriel99" target="blank">
+                    <i class="fab fa-github-square size" target="blank"></i>
+                </a></li>
+            
+        </ul>
+
+        <h3>Ghabriel Marchesi
+            <script type="text/javascript">document.write(new Date().getFullYear());</script> &copy;</a> Feito com <span class="love">♥</span></span>
+        </h3>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
